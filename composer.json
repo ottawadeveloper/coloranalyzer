@@ -1,0 +1,32 @@
+{
+  "name": "ottawadeveloper/coloranalyzer",
+  "description": "Provides WCAG information about CSS colors.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Robert Turnbull",
+      "email": "robert@ottawadeveloper.com",
+      "homepage": "http://www.ottawadeveloper.com",
+      "role": "Developer"
+    }
+  ],
+  "keywords": [
+    "WCAG",
+    "color",
+    "luminosity",
+    "accessibility"
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "OttawaDeveloper\\Tools\\ColorAnalyzer\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "OttawaDeveloper\\Tools\\ColorAnalyzer\\Tests\\": "tests"
+    }
+  }
+}
